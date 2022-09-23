@@ -1,0 +1,10 @@
+rootProject.name = 'demo'
+var lombok_version = '1.18.24'
+
+include ':adapters'
+include ':adapters:in'
+include ':adapters:in:web'
+include ':adapters:out'
+include ':adapters:out:db'
+include ':configuration'
+include ':configuration:web-api'
