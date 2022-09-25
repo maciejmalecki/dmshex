@@ -1,7 +1,5 @@
 package dmshex.preparation;
 
-import dmshex.preparation.usecases.CreateRevisionUseCase;
-import dmshex.preparation.usecases.port.SaveRevisionPort;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

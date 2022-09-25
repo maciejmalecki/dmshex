@@ -1,4 +1,4 @@
-package dmshex.preparation.usecases.port;
+package dmshex.preparation.usecase.port;
 
 import dmshex.preparation.api.RevisionQueryModel;
 

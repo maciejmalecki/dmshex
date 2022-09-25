@@ -1,5 +1,4 @@
-rootProject.name = 'demo'
-var lombok_version = '1.18.24'
+rootProject.name = 'dmshex'
 
 include ':preparation'
 include ':preparation:api'

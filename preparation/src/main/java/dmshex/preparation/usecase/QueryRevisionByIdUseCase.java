@@ -1,4 +1,4 @@
-package dmshex.preparation.usecases;
+package dmshex.preparation.usecase;
 
 import dmshex.preparation.api.RevisionQueryModel;
 import lombok.AllArgsConstructor;

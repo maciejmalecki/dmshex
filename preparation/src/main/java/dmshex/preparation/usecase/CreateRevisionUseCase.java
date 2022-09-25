@@ -1,8 +1,8 @@
-package dmshex.preparation.usecases;
+package dmshex.preparation.usecase;
 
 import dmshex.preparation.Revision;
 import dmshex.preparation.api.CreateRevisionCommand;
-import dmshex.preparation.usecases.port.SaveRevisionPort;
+import dmshex.preparation.usecase.port.SaveRevisionPort;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
