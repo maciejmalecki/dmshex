@@ -1,6 +1,6 @@
 plugins {
+    id 'dmshex.java'
     id 'io.spring.dependency-management' version '1.0.14.RELEASE'
-    id 'java'
 }
 
 repositories {
@@ -8,6 +8,8 @@ repositories {
 }
 
 dependencies {
+    compileOnly project(':preparation')
+    compileOnly project(':preparation:api')
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa:2.7.4'
     testImplementation 'org.springframework.boot:spring-boot-starter-test:2.7.4'
 }
