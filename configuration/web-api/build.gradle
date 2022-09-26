@@ -1,15 +1,16 @@
 plugins {
+    id 'dmshex.java'
     id 'org.springframework.boot' version '2.7.4'
     id 'io.spring.dependency-management' version '1.0.14.RELEASE'
-    id 'java'
-}
-
-repositories {
-    mavenCentral()
 }
 
 dependencies {
+    implementation project(':preparation')
+    implementation project(':preparation:api')
+    implementation project(':preparation:adapters:in:web')
+    implementation project(':preparation:adapters:out:db')
     implementation 'org.springframework.boot:spring-boot-starter-web:2.7.4'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa:2.7.4'
+    implementation 'com.h2database:h2:1.3.148'
     testImplementation 'org.springframework.boot:spring-boot-starter-test:2.7.4'
 }

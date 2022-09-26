@@ -14,6 +14,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 
 @RestController
@@ -21,6 +23,11 @@ import java.util.Optional;
 public class RevisionRestController {
     private final CreateRevisionUseCase createRevisionUseCase;
     private final QueryRevisionByIdUseCase queryRevisionByIdUseCase;
+
+    @GetMapping("/revisions")
+    public List<RevisionQueryModel> getRevisions() {
+        return new ArrayList<>();
+    }
 
     @PostMapping("/revisions")
     public ResponseEntity<String> createRevision(@RequestBody CreateRevisionCommand command) {

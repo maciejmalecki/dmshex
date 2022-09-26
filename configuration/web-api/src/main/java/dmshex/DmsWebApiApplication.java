@@ -1,9 +1,9 @@
-package dmshex.webapi;
+package dmshex;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication()
 public class DmsWebApiApplication {
     public static void main(String[] args) {
         SpringApplication.run(DmsWebApiApplication.class, args);

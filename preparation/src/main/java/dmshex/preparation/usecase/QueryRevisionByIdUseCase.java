@@ -1,6 +1,7 @@
 package dmshex.preparation.usecase;
 
 import dmshex.preparation.api.RevisionQueryModel;
+import dmshex.preparation.usecase.port.QueryRevisionPort;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -10,9 +11,9 @@ import java.util.Optional;
 @AllArgsConstructor
 public class QueryRevisionByIdUseCase {
 
-    private final QueryRevisionByIdUseCase queryRevisionByIdUseCase;
+    private final QueryRevisionPort queryRevisionPort;
 
     public Optional<RevisionQueryModel> queryBy(long revisionId) {
-        return queryRevisionByIdUseCase.queryBy(revisionId);
+        return queryRevisionPort.queryById(revisionId);
     }
 }
