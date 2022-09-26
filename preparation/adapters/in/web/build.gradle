@@ -1,6 +1,5 @@
 plugins {
     id 'dmshex.adapter.in.web'
-    id 'io.spring.dependency-management' version '1.0.14.RELEASE'
 }
 
 dependencies {
