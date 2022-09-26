@@ -1,11 +1,9 @@
 plugins {
-    id 'dmshex.java'
+    id 'dmshex.adapter.in.web'
     id 'io.spring.dependency-management' version '1.0.14.RELEASE'
 }
 
 dependencies {
     compileOnly project(':preparation')
     compileOnly project(':preparation:api')
-    implementation 'org.springframework.boot:spring-boot-starter-web:2.7.4'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test:2.7.4'
 }

@@ -1,12 +1,7 @@
 plugins {
-    id 'dmshex.java'
+    id 'dmshex.domain'
 }
 
 dependencies {
     compileOnly project(':preparation:api')
-    // Spring essentials
-    compileOnly 'org.springframework:spring-context:5.3.23'
-    compileOnly 'org.springframework:spring-tx:5.3.23'
-    // JPA API
-    compileOnly 'jakarta.persistence:jakarta.persistence-api:2.2.3'
 }

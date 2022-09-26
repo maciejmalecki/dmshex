@@ -1,3 +1,0 @@
-= dmshex
-
-link:https://github.com/maciejmalecki/dmshex/actions/workflows/gradle.yml[image:https://github.com/maciejmalecki/dmshex/actions/workflows/gradle.yml/badge.svg[]]
