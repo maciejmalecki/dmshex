@@ -1,3 +1,7 @@
 plugins {
     id 'dmshex.java'
 }
+
+jar {
+    archiveFileName = 'preparation-api.jar'
+}

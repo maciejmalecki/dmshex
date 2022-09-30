@@ -2,6 +2,10 @@ plugins {
     id 'dmshex.adapter.out.db'
 }
 
+jar {
+    archiveFileName = 'preparation-db.jar'
+}
+
 dependencies {
     compileOnly project(':preparation')
     compileOnly project(':preparation:api')

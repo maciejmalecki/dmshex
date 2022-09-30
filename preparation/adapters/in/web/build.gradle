@@ -2,6 +2,10 @@ plugins {
     id 'dmshex.adapter.in.web'
 }
 
+jar {
+    archiveFileName = 'preparation-web.jar'
+}
+
 dependencies {
     compileOnly project(':preparation')
     compileOnly project(':preparation:api')
